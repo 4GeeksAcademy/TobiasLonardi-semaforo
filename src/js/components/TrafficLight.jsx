@@ -8,7 +8,11 @@ const TrafficLight = () =>{
     const [lightOn,setlightOn] = useState("");
 
     const changeLight = (color)=>{
-        setlightOn(color);
+        if(color!==lightOn)
+            setlightOn(color);
+        else{
+            setlightOn("");
+        }
     }
     return(
         <div className="trafficStop">
