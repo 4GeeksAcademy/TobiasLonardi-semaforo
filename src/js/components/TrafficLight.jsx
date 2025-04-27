@@ -33,7 +33,7 @@ const TrafficLight = () =>{
                     <div className={` lightBody greenLight rounded-circle ${lightOn === "green" ? "light" : ""}`} onClick={() => changeLight("green")}>
 
                     </div>
-                    {showLight &&<div className={` lightBody violetLight rounded-circle ${lightOn === "green" ? "light" : ""}`} onClick={() => changeLight("green")}>
+                    {showLight &&<div className={` lightBody violetLight rounded-circle ${lightOn === "violet" ? "light" : ""}`} onClick={() => changeLight("violet")}>
 
                     </div>}
                     <button onClick={() => setShowLight(!showLight)}>
