@@ -6,7 +6,7 @@
 }
 
 .trafficStopLight{
-    height: 250px;
+    height: 350px;
     width: 125px;
     background-color: black;
 
@@ -26,6 +26,10 @@
 
 .greenLight{
     background-color: green;
+}
+
+.violetLight{
+    background-color: violet;
 }
 
 .lightBody{
